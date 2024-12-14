@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: gray;
+}
+.Debut{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#background{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.noircir{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.Contenu{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: blueviolet;
+  font-size: 60px;
+  transform: translate(-50%, -50%);
+  font-family: Playfair Display;
+  text-align: center;
+}
+.Fleche{
+  width: 250px;
+  height: 150px;
+}
+.Scroll{
+  font-family: Playfair Display;
+  font-size: 30px;
+  color: white;
+}
+h1{
+  margin: 0;
+}
+.menu{
+  position: static;
+  top: 0;
+  left: 0;
+  background: blueviolet;
+  color: white;
+}
+.menu > ul{
+  display: flex;
+  list-style: none;
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 8px 35px;
+
+}
+.Histoire{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(251, 255, 0);
+  font-size: 100px;
+  background-color: brown;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+.Politique{
+  font-family: Monsieur La Doulaise, cursive;
+  color: rgb(251, 255, 0);
+  font-size: 100px;
+  background-color: brown;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin: 8px;
+  padding: 10px;
+}
+.Comunisme{
+  font-family: Monsieur La Doulaise, cursive;
+  color: rgb(251, 255, 0);
+  font-size: 100px;
+  background-color: brown;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin: 8px;
+  padding: 10px;
+}
+.Economie{
+  font-family: Monsieur La Doulaise, cursive;
+  color: rgb(251, 255, 0);
+  font-size: 100px;
+  background-color: brown;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin: 8px;
+  padding: 10px;
+}
+.Relief_Geographique{
+  font-family: Monsieur La Doulaise, cursive;
+  color: rgb(251, 255, 0);
+  font-size: 100px;
+  background-color: brown;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin: 8px;
+  padding: 10px;
+}
+._3_villes_importantes{
+  font-family: Monsieur La Doulaise, cursive;
+  color: rgb(251, 255, 0);
+  font-size: 100px;
+  background-color: brown;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin: 8px;
+  padding: 10px;
+}
+.Gastronomie{
+  font-family: Monsieur La Doulaise, cursive;
+  color: rgb(251, 255, 0);
+  font-size: 100px;
+  background-color: brown;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin: 8px;
+  padding: 10px;
+}
+.Sources{
+  font-family: Monsieur La Doulaise, cursive;
+  color: rgb(251, 255, 0);
+  font-size: 100px;
+  background-color: brown;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin: 8px;
+  padding: 10px;
+}
